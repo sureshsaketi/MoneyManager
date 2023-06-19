@@ -1,0 +1,57 @@
+.amount-card {
+  border-radius: 15px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .amount-card {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .amount-card {
+    min-width: 230px;
+  }
+}
+.balance {
+  background-color: #ecfccb;
+  border: 2px solid #84cc16;
+}
+.income {
+  background-color: #cffafe;
+  border: 2px solid #06b6d4;
+}
+.expenses {
+  background-color: #ede9fe;
+  border: 2px solid #7c3aed;
+}
+@media screen and (min-width: 800px) {
+  .income-card {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .amount-card {
+    flex-grow: 1;
+  }
+}
+.image {
+  height: 65px;
+  width: 65px;
+}
+.img-container {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.amount-info-text {
+  color: #475569;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'roboto';
+}
+h2 {
+  color: #475569;
+  font-weight: 500;
+  font-family: 'roboto';
+}
